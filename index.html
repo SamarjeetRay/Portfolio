@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samarjeet Ray Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8e51bfba4e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="assets\samarLOGO.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">My Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+<!-- ---------------------auto text effect --------------------- -->
+        <div class="header-text">
+          <h1>Hi, I'm <span>Samarjeet Ray</span> <div class="container">
+            <h2><span id="sam" class="auto-type"></span></h2>from India ! </h1>
+        </div>
+<!-- ---------------------auto text effect --------------------- -->
+      </div>
+    </div>
+    <!-- ------ABOUT--SECTION----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets\SamarUser.jpeg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <div>
+              <p><strong style="color: greenyellow;">Welcome to my corner of the web!</strong></p>
+<br>
+<p>I'm a <strong>Computer Science and Business Systems</strong> student at <strong>Netaji Subhash Engineering College, Kolkata,</strong> exploring the <strong style="color: greenyellow;">MERN stack</strong> and proficient in <strong style="color: greenyellow;">HTML, CSS,</strong> and <strong style="color: greenyellow;">JavaScript.</strong></p>
+<br>
+<p>Besides coding, I'm passionate about <strong style="color: greenyellow;">designing</strong> and <strong style="color: greenyellow;"> video editing</strong>, learning <strong style="color: greenyellow;">Figma</strong> for <strong style="color: greenyellow;">UI/UX design,</strong> and creating cinematic videos for social media.</p>
+<br>
+<p>Driven by curiosity, I'm eager to explore new technologies and push boundaries. Join me as I evolve and create in the dynamic world of tech and design!</p>
+
+            </div>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web App interfaces and mobile applications using Figma.</li>
+                <li><span>Web Devlopment</span><br />Learing MERN Stack Development , Currently completed front-end.</li>
+                <li>
+                  <span>Video Editing</span><br />Edit videos for for Social
+                  Media.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>2024-Current</span><br />As an enthusiastic <strong style="color: greenyellow;">Fresher</strong> seeking internship opportunities, I bring hands-on experience in front-end development, UI/UX design, and video editing, eager to further grow and contribute in the tech industry.</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2022-2026</span><br />
+                  B.Tech in Computer Science and Business Systems student at
+                  Netaji Subhash Engineering College , kolkata
+                </li>
+                <li>
+                  <span>2019-2021</span><br />12th from Guru Gobind Singh Public
+                  School , B.S.City
+                </li>
+                <li>
+                  <span>2019</span><br />10th from Guru Gobind Singh Public
+                  School , B.S.City Media.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------SERVICE--SECTION----------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Devlopment</h2>
+            <p>
+              Learing MERN stack development, proficient in frontend technologies with a focus on React, and currently expanding expertise in backend and database management. Additionally, adept in UI/UX design using Figma, crafting innovative projects that showcase creativity and technical prowess. Passionate about delivering seamless user experiences through web development.
+            </p>
+            <a href="https://www.linkedin.com/in/samarjeetray">Click Here</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Video Editing</h2>
+            <p>
+              Proficient in video editing, specializing in crafting cinematic experiences and mastering color grading techniques. Passionate about content creation, leveraging skills to produce engaging videos for social media platforms. Continuously refining expertise to deliver visually captivating content that resonates with audiences.
+            </p>
+            <a href="https://www.instagram.com/samar.ig">Click Here</a>
+          </div>
+
+          <div>
+            <i class="fa-brands fa-android"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Mastering Figma with a flair for UI/UX design, crafting interfaces that seamlessly fuse style and functionality. Infusing passion into every pixel, I've conjured captivating app designs that captivate users. Eagerly evolving my skills to create graphic wonders that redefine digital experiences.
+            </p>
+            <a href="https://www.behance.net/samarjeetray">Click Here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------MY PORTFOLIO--SECTION----------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="assets\work-1(amazon).png" />
+            <div class="layer">
+              <h3><b>Amazon Redesign Website</b></h3>
+              <p>
+                Diving into MERN-stack development, I've tackled a challenging project - a redesigned Amazon clone. Leveraging my front-end skills, I've crafted a visually stunning and user-friendly interface, breathing new life into the e-commerce giant's layout. This fully functional project marks a significant milestone in my journey towards mastering web development.
+              </p>
+              <a href="https://github.com/SamarjeetRay"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/work-2(cafe website).png" />
+            <div class="layer">
+              <h3><b>Restaurant Website</b></h3>
+              <p>
+                Venturing into web development, I've mastered HTML, CSS, and JavaScript, crafting a vibrant restaurant cafe website offering healthy cuisine. This portfolio-worthy project showcases my front-end skills, featuring sleek design and interactive elements. It's a testament to my growth and passion for creating visually appealing and functional web experiences.
+              </p>
+              <a href="https://github.com/SamarjeetRay"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="assets/work-3(Figma Designs).png" />
+            <div class="layer">
+              <h3><b>Weather App UI/UX</b></h3>
+              <p>
+                Currently mastering Figma and UI/UX design, I'm crafting a sleek weather app concept. Combining functionality with aesthetics, the app promises intuitive navigation and visually pleasing graphics. Inspired by modern design trends, it aims to deliver accurate forecasts while offering a delightful user experience. Stay tuned for updates!
+              </p>
+              <a href="https://www.behance.net/samarjeetray"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/SamarjeetRay" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ------contact--SECTION----------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>samarjeetkumarXXXX@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>62033XXX38</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/SamRajput747?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.instagram.com/samar.ig?igsh=djhzcjExcnI2bWVk"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/samarjeetray?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/SamarjeetRay"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.behance.net/samarjeetray"><i class="fa-brands fa-behance"></i></a>
+            </div>
+            <a href="assets/Samarjeet Ray CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2 click-animation">
+                Submit
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright © Samarjeet Ray Made With Love
+          <i class="fa-solid fa-heart"></i> By Samar
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwCmzZQ5Qezm-qHn_Yb1LGIaEE6V33PsbtT9YscJ7mpbfcpZVlzWGVuqx45zgHW0Lv5gA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message send Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+<!-- ---------------------auto text effect --------------------- -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Web Devloper", "Figma Designer", "UI/UX Desginer", "Video Editor","Grapics Designer"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+<!-- ---------------------auto text effect --------------------- -->
+  </body>
+</html>
